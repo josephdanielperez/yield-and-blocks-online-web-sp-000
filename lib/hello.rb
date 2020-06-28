@@ -1,4 +1,4 @@
-def hello_t(array)
+def hello_t
   array.each do |element|
   end
 end
