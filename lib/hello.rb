@@ -1,9 +1,7 @@
 def hello_t(names = [])
   names.each do |name|
     puts name
-  end
-  yield
-  names.each do |name|
+    yield
     puts name.upcase
   end
 end
