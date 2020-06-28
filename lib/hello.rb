@@ -1,7 +1,7 @@
 def hello_t(names = [])
-  names.each do |name|
-    puts name
-  end
+  puts names
+  yield
+  puts names.upcase
 end
 
 # call your method here!
