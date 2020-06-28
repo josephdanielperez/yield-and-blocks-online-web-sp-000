@@ -1,5 +1,5 @@
-def hello_t(array = [])
-  array.each do |element|
+def hello_t(names = [])
+  names.each do |name|
   end
 end
 
