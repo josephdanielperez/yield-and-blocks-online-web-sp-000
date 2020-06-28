@@ -5,4 +5,4 @@ def hello_t(names = [])
 end
 
 # call your method here!
-hello_t
+hello_t(names)
